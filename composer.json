@@ -20,7 +20,8 @@
         "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
         "yiisoft/yii2-bootstrap4": "^2.0",
         "rmrevin/yii2-fontawesome": "2.10.*",
-        "dmstr/yii2-adminlte-asset": "*"
+        "dmstr/yii2-adminlte-asset": "*",
+        "airani/yii2-bootstrap-rtl": "^1.2"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",

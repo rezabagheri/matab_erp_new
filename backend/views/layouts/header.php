@@ -32,7 +32,7 @@ use yii\helpers\Html;
                             <ul class="menu">
                                 <li><!-- start message -->
                                     <a href="#">
-                                        <div class="pull-left">
+                                        <div class="pull-right">
                                             <img src="<?= $directoryAsset ?>/img/user2-160x160.jpg" class="img-circle"
                                                  alt="User Image"/>
                                         </div>
@@ -46,7 +46,7 @@ use yii\helpers\Html;
                                 <!-- end message -->
                                 <li>
                                     <a href="#">
-                                        <div class="pull-left">
+                                        <div class="pull-right">
                                             <img src="<?= $directoryAsset ?>/img/user3-128x128.jpg" class="img-circle"
                                                  alt="user image"/>
                                         </div>
@@ -59,7 +59,7 @@ use yii\helpers\Html;
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="pull-left">
+                                        <div class="pull-right">
                                             <img src="<?= $directoryAsset ?>/img/user4-128x128.jpg" class="img-circle"
                                                  alt="user image"/>
                                         </div>
@@ -72,7 +72,7 @@ use yii\helpers\Html;
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="pull-left">
+                                        <div class="pull-right">
                                             <img src="<?= $directoryAsset ?>/img/user3-128x128.jpg" class="img-circle"
                                                  alt="user image"/>
                                         </div>
@@ -85,7 +85,7 @@ use yii\helpers\Html;
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <div class="pull-left">
+                                        <div class="pull-right">
                                             <img src="<?= $directoryAsset ?>/img/user4-128x128.jpg" class="img-circle"
                                                  alt="user image"/>
                                         </div>
@@ -257,7 +257,7 @@ use yii\helpers\Html;
                         </li>
                         <!-- Menu Footer-->
                         <li class="user-footer">
-                            <div class="pull-left">
+                            <div class="pull-right">
                                 <a href="#" class="btn btn-default btn-flat">Profile</a>
                             </div>
                             <div class="pull-right">

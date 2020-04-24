@@ -18,6 +18,7 @@ return array(
     'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/reflection-docblock/src', $vendorDir . '/phpdocumentor/type-resolver/src'),
     'dmstr\\' => array($vendorDir . '/dmstr/yii2-adminlte-asset'),
     'cebe\\markdown\\' => array($vendorDir . '/cebe/markdown'),
+    'airani\\bootstrap\\' => array($vendorDir . '/airani/yii2-bootstrap-rtl'),
     'Webmozart\\Assert\\' => array($vendorDir . '/webmozart/assert/src'),
     'Symfony\\Polyfill\\Php73\\' => array($vendorDir . '/symfony/polyfill-php73'),
     'Symfony\\Polyfill\\Php72\\' => array($vendorDir . '/symfony/polyfill-php72'),

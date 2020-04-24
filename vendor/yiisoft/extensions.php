@@ -84,4 +84,13 @@ return array (
       '@dmstr' => $vendorDir . '/dmstr/yii2-adminlte-asset',
     ),
   ),
+  'airani/yii2-bootstrap-rtl' => 
+  array (
+    'name' => 'airani/yii2-bootstrap-rtl',
+    'version' => '1.2.1.0',
+    'alias' => 
+    array (
+      '@airani/bootstrap' => $vendorDir . '/airani/yii2-bootstrap-rtl',
+    ),
+  ),
 );
