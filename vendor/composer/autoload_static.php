@@ -42,6 +42,10 @@ class ComposerStaticInitaa194a861a778be238cdf3b5c759cacb
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'd' => 
+        array (
+            'dmstr\\' => 6,
+        ),
         'c' => 
         array (
             'cebe\\markdown\\' => 14,
@@ -147,6 +151,10 @@ class ComposerStaticInitaa194a861a778be238cdf3b5c759cacb
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'dmstr\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dmstr/yii2-adminlte-asset',
         ),
         'cebe\\markdown\\' => 
         array (
@@ -277,6 +285,13 @@ class ComposerStaticInitaa194a861a778be238cdf3b5c759cacb
     );
 
     public static $prefixesPsr0 = array (
+        'c' => 
+        array (
+            'cebe\\gravatar\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/cebe/yii2-gravatar',
+            ),
+        ),
         'H' => 
         array (
             'HTMLPurifier' => 
