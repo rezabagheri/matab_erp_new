@@ -85,6 +85,29 @@
         ]
     },
     {
+        "name": "bower-asset/fontawesome",
+        "version": "v4.3.0",
+        "version_normalized": "4.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/FortAwesome/Font-Awesome.git",
+            "reference": "41b9ed01103e6820c3cb043ba7ddab30ecd3f4c0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/41b9ed01103e6820c3cb043ba7ddab30ecd3f4c0",
+            "reference": "41b9ed01103e6820c3cb043ba7ddab30ecd3f4c0",
+            "shasum": null
+        },
+        "type": "bower-asset",
+        "installation-source": "dist",
+        "license": [
+            "OFL-1.1",
+            "MIT",
+            "CC-BY-3.0"
+        ]
+    },
+    {
         "name": "bower-asset/inputmask",
         "version": "3.3.11",
         "version_normalized": "3.3.11.0",
@@ -1110,6 +1133,22 @@
         ]
     },
     {
+        "name": "npm-asset/bootstrap",
+        "version": "4.4.1",
+        "version_normalized": "4.4.1.0",
+        "dist": {
+            "type": "tar",
+            "url": "https://registry.npmjs.org/bootstrap/-/bootstrap-4.4.1.tgz",
+            "reference": null,
+            "shasum": null
+        },
+        "type": "npm-asset",
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ]
+    },
+    {
         "name": "opis/closure",
         "version": "3.5.1",
         "version_normalized": "3.5.1.0",
@@ -2079,6 +2118,60 @@
             }
         ],
         "description": "A polyfill for getallheaders."
+    },
+    {
+        "name": "rmrevin/yii2-fontawesome",
+        "version": "2.10.3",
+        "version_normalized": "2.10.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/rmrevin/yii2-fontawesome.git",
+            "reference": "ce4dd62a048090f3d98822d4bc9401bfcdde1f98"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/rmrevin/yii2-fontawesome/zipball/ce4dd62a048090f3d98822d4bc9401bfcdde1f98",
+            "reference": "ce4dd62a048090f3d98822d4bc9401bfcdde1f98",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/fontawesome": "4.3.*",
+            "php": ">=5.4.0",
+            "yiisoft/yii2": "2.0.*"
+        },
+        "time": "2015-06-23T13:06:14+00:00",
+        "type": "yii2-extension",
+        "extra": {
+            "asset-installer-paths": {
+                "npm-asset-library": "vendor/npm",
+                "bower-asset-library": "vendor/bower"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "rmrevin\\yii\\fontawesome\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Revin",
+                "email": "xgismox@gmail.com",
+                "homepage": "http://rmrevin.ru/"
+            }
+        ],
+        "description": "Asset Bundle for Yii2 with Font Awesome",
+        "keywords": [
+            "asset",
+            "awesome",
+            "bundle",
+            "font",
+            "yii"
+        ]
     },
     {
         "name": "sebastian/code-unit-reverse-lookup",
@@ -3961,6 +4054,77 @@
         "description": "The Twitter Bootstrap extension for the Yii framework",
         "keywords": [
             "bootstrap",
+            "yii2"
+        ]
+    },
+    {
+        "name": "yiisoft/yii2-bootstrap4",
+        "version": "2.0.8",
+        "version_normalized": "2.0.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/yiisoft/yii2-bootstrap4.git",
+            "reference": "c67ae3f3624c35d977841f6b18d0d752ebed6420"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap4/zipball/c67ae3f3624c35d977841f6b18d0d752ebed6420",
+            "reference": "c67ae3f3624c35d977841f6b18d0d752ebed6420",
+            "shasum": ""
+        },
+        "require": {
+            "npm-asset/bootstrap": "^4.3",
+            "yiisoft/yii2": "~2.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "<7",
+            "yiisoft/yii2-coding-standards": "~2.0"
+        },
+        "time": "2019-10-08T11:01:37+00:00",
+        "type": "yii2-extension",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "yii\\bootstrap4\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Qiang Xue",
+                "email": "qiang.xue@gmail.com",
+                "homepage": "http://www.yiiframework.com/"
+            },
+            {
+                "name": "Alexander Makarov",
+                "email": "sam@rmcreative.ru",
+                "homepage": "http://rmcreative.ru/"
+            },
+            {
+                "name": "Antonio Ramirez",
+                "email": "amigo.cobos@gmail.com"
+            },
+            {
+                "name": "Paul Klimov",
+                "email": "klimov.paul@gmail.com"
+            },
+            {
+                "name": "Simon Karlen",
+                "email": "simi.albi@outlook.com"
+            }
+        ],
+        "description": "The Twitter Bootstrap extension for the Yii framework",
+        "keywords": [
+            "bootstrap",
+            "bootstrap4",
             "yii2"
         ]
     },
